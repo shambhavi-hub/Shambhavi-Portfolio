@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>\
+	<title>Portfolio</title>
 
 	<!--Font Link-->
 	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -16,9 +16,9 @@
 <!-- header section starts here -->
 <header>
 	<div class="user">
-		<img src="profile.jpg" alt="">
+		<img src="./files/profile.jpg" alt="">
 		<h3 class="name">shambhavi</h3>
-		<p class="post">IT Fresher</p>
+		<p class="post">Software Developer</p>
 	</div>
 
 	<nav class="navbar">
@@ -41,8 +41,12 @@
 
 	<h3>HI THERE !</h3>
 	<h1>I'M <span>shambhavi</span></h1>
-	<p>I am a IT Fresher with some some NON-IT experiences. Completed my course in python and sql.
-	Ready to teach and learn.</p>
+
+	<p>I am a software developer with good IT experience.
+		<br> Good knowledge in frontEnd and backEnd technologies. 
+		<br>Ready to learn and explore new things.
+	</p>
+
 	<a href="#aboutme"><button class="btn">about me <i class="fas fa-user"></i></button></a>
 	
 </section>
@@ -58,21 +62,21 @@
 		
 		<div class="info">
 			<h3> <span> name : </span> shambhavi s</h3>
-			<h3> <span> age : </span> 25 </h3>
+			<h3> <span> age : </span> 26 </h3>
 			<h3> <span> qualification : </span> B.E </h3>
-			<h3> <span> post : </span> IT Fresher </h3>
+			<h3> <span> post : </span> Software Developer </h3>
 			<h3> <span> language : </span> tamil, english </h3>
-			<a href="#"><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
+			<a href="./files/Shambhavi-Resume.pdf" download="Shambhavi-Resume"><button class="btn"> download CV <i class="fas fa-download"></i></button></a>
 		</div>
 
 		<div class="counter">
 			<div class="box">
-				<span> 1 </span>
-				<h3>year of experience</h3>
+				<span> 2+ </span>
+				<h3>years of experience</h3>
 			</div>
 			<div class="box">
-				<span> 2 </span>
-				<h3>project completed</h3>
+				<span> 10+ </span>
+				<h3>projects completed</h3>
 			</div>
 		</div>
 </div>
@@ -92,20 +96,20 @@
 	<div class="box">
 		<i class="fas fa-graduation-cap"></i>
 		<span>2012</span>
-		<h3>Xth Std</h3>\
+		<h3>Xth Std</h3>
 		<p>Secured 87%</p>	
 	</div>
 	<div class="box">
 		<i class="fas fa-graduation-cap"></i>
 		<span>2014</span>
-		<h3>XIIth Std</h3>\
+		<h3>XIIth Std</h3>
 		<p>Major in Maths-Biology.
 		   Secured 63%</p>	
 	</div>
 	<div class="box">
 		<i class="fas fa-graduation-cap"></i>
 		<span>2018</span>
-		<h3>Bachcelor Of engineering</h3>\
+		<h3>Bachelor Of engineering</h3>
 		<p>Major in Electronics And Communication Engineering(ECE).
 		   Secured 75%</p>	
 	</div>	
@@ -116,25 +120,50 @@
 
 <!-- Experience section starts here -->
 
-<section class="experiences" id="experiences">
+<section class="experience" id="experiences">
 
 <h1 class="heading"><span>experiences</span></h1>
 
 <div class="box-container">
+
+	<div class="box">
+		<i class="fas fa-graduation-cap"></i>
+		<span> 2022(Currently Working) </span>
+		<h3>Full Stack Engineer At Skill - Lync</h3>
+		<p>Rendered 15+ front-end projects.
+			<br>Thorough knowledge in HTML, CSS, Javascript, REACT.
+			<br> Good knowledge in Java, SQL.
+		</p>				
+		</div>
+
+		<div class="box">
+			<i class="fas fa-graduation-cap"></i>
+			<span> 2019(JUNE - SEPT) </span>
+			<h3>Sofware Engineer As Intern At The Valley Bootcamp</h3>
+			<p>Write and test code, refining and rewriting it as necessary.
+				<br> And communicate with any programmers involved in the project
+				Research, 
+				<br>design and write new software programs
+				
+			</p>				
+			</div>
+
 		<div class="box">
 		<i class="fas fa-graduation-cap"></i>
 		<span> 2018(AUG-DEC) </span>
-		<h3>Process Executive</h3>\
+		<h3>Process Executive At Cognizant Technology Solutions</h3>
 		<p>Name Clearance Process.
-		   Cleared parties clash and clean.s</p>				
+		   Cleared parties clash and clean.</p>				
 		</div>
+
 		<div class="box">
 		<i class="fas fa-graduation-cap"></i>
-		<span> 2019(JAN-MAY) </span>
-		<h3>Process Associate</h3>\
-		<p>Auto SUbmission Proces.
+		<span> 2019(JAN-MAY)  </span>
+		<h3>Process Associate At Artech Info Solutions</h3>
+		<p>Auto Submission Process.
 		   Generated automobile policies for clients. </p>				
 		</div>	
+
 </div>
 
 </section>
@@ -159,14 +188,14 @@
 		</div>
 	</div>
 
-	<form action="">
+	<form action="https://formsubmit.co/el/confirm/shambhavi.madras@gmail.com" method="POST">
 
-		<input type="text" placeholder="name" class="box">
-		<input type="email" placeholder="email" class="box">
-		<input type="text" placeholder="project" class="box">
-		<textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message">
-		</textarea>
-		<button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+		<input type="text" name="name" required placeholder="name" class="box">
+		<input type="email" name="email" required placeholder="email" class="box">
+		<input type="text" name="project" required  placeholder="project" class="box">
+		<input type="text" name="message" required  placeholder="message" class="box">
+		<input type="hidden" name="_template" value="box">
+		<button type="submit" class="btn"><i class="fas fa-paper-plane"> send </i></button>
 		
 	</form>
 	
@@ -179,7 +208,7 @@
 
 <!-- scroll top button -->
 <a href="#home">
-	<img src="scroll-top-img.png" alt="">
+	<img src="./files/scroll-top-img.png" alt="">
 </a>
 
 	<!--Jquery CDN Link -->

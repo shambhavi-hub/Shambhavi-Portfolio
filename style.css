@@ -80,7 +80,7 @@ section{
 
 .heading span{
 	color:var(--yellow);
-
+	font-size: 5rem;
 }
 
 header{
@@ -101,10 +101,10 @@ header{
 header .user img{
 	height: 17rem;
 	width: 17rem;
-	border-radius: 50%
+	border-radius: 50%;
 	object-fit:cover;
 	margin-bottom: 1rem;
-	border:.7rem solid var(--yellow);
+	border: 0.7rem solid var(--yellow);
 }
 
 header .user .name{
@@ -174,12 +174,12 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-
+	color: green;
 }
 
 .home p{
-	font-size: 2rem;
-	color:#eee;
+	font-size: 3rem;
+	color:rebeccapurple;
 	padding: 1rem 0;
 }
 
@@ -198,14 +198,14 @@ header .navbar ul li a:hover{
 }
 
 .about .row .info h3{
-	font-size: 2rem;
+	font-size: 3rem;
 	color:var(--yellow);
 	padding: 1rem 0;
 	font-weight: normal;
 }
 
 .about .row .info h3 span{
-	color: #eee;
+	color: rebeccapurple;
 	padding:0 .5rem;
 }
 
@@ -225,7 +225,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box span{
-	font-size: 4rem;
+	font-size: 5rem;
 	color:var(--yellow);
 }
 
@@ -261,13 +261,13 @@ header .navbar ul li a:hover{
 
 .education .box-container .box h3{
 	font-size: 2rem;
-	color:#fff;
+	color:royalblue;
 	padding-top: 1.5rem;
 }
 
 .education .box-container .box p{
-	font-size: 4rem;
-	color:#eee;
+	font-size: 3rem;
+	color:rebeccapurple;
 	padding-top: 1rem 0;
 }
 
@@ -296,31 +296,33 @@ header .navbar ul li a:hover{
 }
 
 .experience .box-container .box{
-	width:4rem;
-	margin: 4rem 1rem;
-	padding-left: 4rem;
-	border-left: .2rem solid #fff;
+	/* width:25px; */
+	/* margin: 4rem 1rem; */
+	/* padding-left: 4rem; */
+	/* border-left: .2rem solid #fff; */
 	position:relative;
 }
 
 .experience .box-container .box span{
-	font-size: 4rem;
+	font-size: 2rem;
 	background: #222;
 	color:#fff;
 	border-radius: 5rem;
 	padding:.5rem 2.5rem;
+	margin-top: 5rem;
 }
 
 .experience .box-container .box h3{
 	font-size: 2rem;
-	color:#fff;
+	color:royalblue;
 	padding-top: 1.5rem;
 }
 
 .experience .box-container .box p{
 	font-size: 3rem;
-	color:#eee;
+	color:rebeccapurple;
 	padding-top: 1rem 0;
+	margin-bottom: 7rem;
 }
 
 .experience .box-container .box i{
@@ -337,63 +339,69 @@ header .navbar ul li a:hover{
 	background: var(--yellow);
 }
 
-.contact .row{
+.contactme .row{
 	display: flex;
 	align-items:center;
 	justify-content: center;
 	flex-wrap:wrap;
 }
 
-.contact .row .content{
+.contactme .row .content{
 	flex:1 1 30rem;
 	padding: 4rem;
 	padding-bottom: 0;	
 }
 
-.contact .row form{
+.contactme .row form{
 	flex:1 1 45rem;
 	padding: 2rem;
 	margin: 2rem;
 	margin-bottom: 4rem;	
 }
 
-.contact .row form .box{
+.contactme .row form .box{
 	padding:1.5rem;
 	margin:1rem 0;
 	background:#3333;
 	color: #ffff;
 	text-transform: none;
-	font-size: 1.7rem;
+	font-size: 5rem;
 	width: 100%;
 }
 
-.contact .row form .box::placeholder{
+.contactme .row form .box::placeholder{
 	 text-transform: capitalize;
-
 }
 
-.contact .row form .message{
+.contactme .row form textarea::placeholder{
+	text-transform: capitalize;
+}
+
+.contactme .row form .message{
 	height: 15rem;
-	resize: none;
+	/* resize: none; */
+	text-transform: capitalize;
 }
 
-.contact .row .content .title{
+
+
+.contactme .row .content .title{
 	text-transform: uppercase;
-	color:#fff;
-	font-size: 3rem;
+	color:royalblue;
+	font-size: 5rem;
 	padding-bottom: 2rem;
 }
 
-.contact .row .content .info h3{ 
+.contactme .row .content .info h3{ 
 	display: flex;
 	align-items: center;
 	font-size: 2rem;
-	color:#eee;
+	color:rebeccapurple;
 	padding:1rem 0;
-	font-weight: normal;
+	font-weight: 2rem;
 }
 
-.contact .row .content .info h3 i{
+.contactme .row .content .info h3 i{
 	padding-right: 1rem;
 	color:var(--yellow);
 
